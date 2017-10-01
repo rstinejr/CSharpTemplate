@@ -1,10 +1,18 @@
 # CSharpTemplate
 Directory structure for a .NET Core project with xUnit tests.
 
+The directory layout is that each project directory has two subdirectories. The first is the directory with the project implementation; its name reiterates the project name.
+
+The other directory contains the unit tests for the project. The unit tests are in their own namespace, and the main project makes no references to the test project.
+
+The project can be built and tested from the command line, but there is also a Visual Studio solution file for it.
+
 Created with dotnet 2.0.
 
 To download .NET Core, see https://dot.net
 
+
+# Build and run
 
 To build and run from the command line:
 
